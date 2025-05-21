@@ -39,5 +39,15 @@ This is our pipeline to take our participants' brain MRIs and turn them into 3D 
 │   └── swarm.sub-002
 │
 └── logs/
+
+Folder	Description
+raw_data/	Contains raw structural MRI for each subject (T1w.nii.gz)
+derivatives/	Output data generated from processing
+freesurfer/	Full recon-all output folders per subject
+stl/	STL files for 3D printing: cortical surface, cerebellum, subcorticals
+scripts/	Shell and MATLAB scripts used in the pipeline
+slurm/	Swarm files for SLURM job submission (if using HPC)
+logs/	Log outputs for recon-all and mesh creation
+
     ├── recon-all-sub-001.log
     └── meshgen-sub-001.log
