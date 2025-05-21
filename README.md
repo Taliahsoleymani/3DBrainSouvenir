@@ -15,12 +15,11 @@ This is our pipeline to take our participants' brain MRIs and turn them into 3D 
 │   │   └── sub-001_T1w.nii.gz
 │   ├── sub-002/
 │   │   └── sub-002_T1w.nii.gz
-│   └── ...
 │
 ├── derivatives/
 │   ├── freesurfer/
 │   │   ├── sub-001/
-│   │   ├── sub-002/
+│   │   └── sub-002/
 │   ├── stl/
 │   │   ├── sub-001/
 │   │   │   ├── lh_pial.stl
@@ -36,9 +35,9 @@ This is our pipeline to take our participants' brain MRIs and turn them into 3D 
 │   └── README.md
 │
 ├── slurm/
-│   └── swarm.sub-001
+│   ├── swarm.sub-001
 │   └── swarm.sub-002
 │
 └── logs/
-    └── recon-all-sub-001.log
+    ├── recon-all-sub-001.log
     └── meshgen-sub-001.log
