@@ -159,4 +159,4 @@ This will create a new mesh called `FlattenedMesh`.
 ---
 
 ### Now you are ready to print!
-
+email: alicia.lillich@nih.gov, the final .stl file 
