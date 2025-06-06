@@ -6,7 +6,7 @@ This is our pipeline to take our participants' brain MRIs and turn them into 3D 
 2. Smooth brain and combine all meshes(both hemispheres and cerebellum+brainstem)(Meshlab)
 
 ### Standardized Folder Structure
-/data/MoodGroup/code/3D_Brain_Printing/
+/data/MoodGroup/code/Taliah/3D_Brain_Printing
 
 raw_data/
     
