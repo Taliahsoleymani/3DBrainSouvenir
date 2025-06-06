@@ -11,9 +11,9 @@ This is our pipeline to take our participants' brain MRIs and turn them into 3D 
 raw_data/
     
 	sub-001/
-        sub-001_T1w.nii.gz
+        sub-001_*.nii
     sub-002/
-        sub-002_T1w.nii.gz
+        sub-002_*.nii
     
 derivatives/
     
