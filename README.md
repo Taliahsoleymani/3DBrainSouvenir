@@ -56,6 +56,8 @@ freesurfer/	Full recon-all output folders per subject
 
 stl/	STL files for 3D printing: cortical surface, cerebellum, subcorticals
 
+print/ contains the finished producted after smoothed and merged as a single mesh
+
 scripts/	Shell and MATLAB scripts used in the pipeline
 
 slurm/	Swarm files for SLURM job submission (if using HPC)
