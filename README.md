@@ -30,6 +30,10 @@ derivatives/
             subcortical.stl
         sub-002/
 
+ print/
+ 
+ 	sub-001-full-brain-print.stl
+
 scripts/
    
 	run_freesurfer_and_export.sh
