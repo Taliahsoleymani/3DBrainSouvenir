@@ -67,7 +67,8 @@ logs/	Log outputs for recon-all and mesh creation
 ## 🧠 Run FreeSurfer `recon-all` and Export STL Files
 
 This step takes a participant's T1-weighted MRI and produces surface meshes of key brain structures using FreeSurfer.
-🔁 Optional: If `anatwrap` output is available, use the skull-stripped (masked) MRI as input instead of the raw `.nii` file.
+
+ Optional: If `anatwrap` output is available, use the skull-stripped (masked) MRI as input instead of the raw `.nii` file.
 
 ---
 
