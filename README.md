@@ -76,8 +76,10 @@ This step takes a participant's T1-weighted MRI and produces surface meshes of k
 
 Submit your job on the HPC (e.g., Biowulf) using `sbatch`:
 
+Make sure you are in the scripts folder before running and edit run_freesufer_and_export.sh to ensure "export PROJECT_ROOT=/data/MoodGroup/code/Taliah/3D_Brain_Printing" is correct
+
 ```bash
-sbatch --mem=64G --cpus-per-task=8 --time=2-00:00:00 scripts/generate_brain_stl.sh sub-001
+sbatch --mem=64G --cpus-per-task=8 --time=2-00:00:00 run_freesurfer_and_export.sh sub-001
 ``` 
 
 --- 
